@@ -79,6 +79,10 @@ python3 PowerOfNumbers.py
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
+### BinarySearch.py
 
+Esse problema demonstra uma das funções mais conhecidas para algoritmos de dividir e conquistar que é sua utilização no algoritmo da busca binária. Algoritmos de busca lineares tem como complexidade O(n), enquanto que o de busca binária, utilizando-se do princípio de dividir e conquistar tem complexidade O(Log n). A solução desse problema foi então escrever o algoritmo de busca binária, já que o problema já disponibilizava o código de leitura das variáveis.
 
+### PowerOfNumbers.py
 
+Neste problema, dado um número e seu reverso, deveria ser encontrado o valor do número elevado ao seu reverso módulo 1000000007 (devido ao quão grande poderia ser o resultado). Para resolvê-lo, foi utlizado o princípio de dividir e conquistar onde caso o valor de potenciação (o reverso) fosse par, a função é chamada novamente de forma recursiva mas passando metade do valor de potenciação, otimizando assim o tempo do algoritmo.

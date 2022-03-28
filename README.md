@@ -80,7 +80,7 @@ python3 PowerOfNumbers.py
 
 ### Abracadabra.py
 
-Neste problema, dado quatro valores que representavam os índices do primeiro e do último caractere de duas strings, o objetivo era retornar o comprimento da substring comum mais longa das duas strings fornecidas. Logo, a solução da questão foi alcançada seguindo o princípio de dividir e conquistar, na qual usando as propriedades de um palíndromo, a duas strings eram divididas em dois segmentos e as as metades direita e esquerda eram comparadas até ser encontrado a maior substring comum.
+Neste problema, dado quatro valores que representavam os índices do primeiro e do último caractere de duas strings, o objetivo era retornar o comprimento da substring comum mais longa das duas strings fornecidas. Logo, a solução da questão foi alcançada seguindo o princípio de dividir e conquistar, na qual usando as propriedades de um palíndromo, a duas strings eram divididas em dois segmentos e as metades direita e esquerda eram comparadas até ser encontrado a maior substring comum.
 
 ### BinarySearch.py
 

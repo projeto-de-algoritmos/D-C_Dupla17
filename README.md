@@ -76,13 +76,20 @@ python3 MergeSort.py
 python3 PowerOfNumbers.py
 ```
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Outros
+
+### Abracadabra.py
+
+Neste problema, dado quatro valores que representavam os índices do primeiro e do último caractere de duas strings, o objetivo era retornar o comprimento da substring comum mais longa das duas strings fornecidas. Logo, a solução da questão foi alcançada seguindo o princípio de dividir e conquistar, na qual usando as propriedades de um palíndromo, a duas strings eram divididas em dois segmentos e as as metades direita e esquerda eram comparadas até ser encontrado a maior substring comum.
 
 ### BinarySearch.py
 
 Esse problema demonstra uma das funções mais conhecidas para algoritmos de dividir e conquistar que é sua utilização no algoritmo da busca binária. Algoritmos de busca lineares tem como complexidade O(n), enquanto que o de busca binária, utilizando-se do princípio de dividir e conquistar tem complexidade O(Log n). A solução desse problema foi então escrever o algoritmo de busca binária, já que o problema já disponibilizava o código de leitura das variáveis.
 
+### MergeSort.py
+
+Esse problema segue o princípio da ordenação de uma lista utilizando o MergeSort, que é um algoritmo de dividir e conquistar, mas ao invés de ordenar uma lista, nesse problema tínhamos que gerar uma lista de tamanho n, que precisasse de k chamadas recursivas de MergeSort, para ser ordenado. Logo, a solução da questão foi alcançada seguindo a mesma lógica do MergeSort, de pegar o meio da distância entre o início e o fim da lista, e chamar a função geradora da lista recursivamente para os intervalos, meio->fim e início->fim.
+
 ### PowerOfNumbers.py
 
-Neste problema, dado um número e seu reverso, deveria ser encontrado o valor do número elevado ao seu reverso módulo 1000000007 (devido ao quão grande poderia ser o resultado). Para resolvê-lo, foi utlizado o princípio de dividir e conquistar onde caso o valor de potenciação (o reverso) fosse par, a função é chamada novamente de forma recursiva mas passando metade do valor de potenciação, otimizando assim o tempo do algoritmo.
+Neste problema, dado um número e seu reverso, deveria ser encontrado o valor do número elevado ao seu reverso módulo 1000000007 (devido ao quão grande poderia ser o resultado). Para resolvê-lo, foi utilizado o princípio de dividir e conquistar onde caso o valor de potenciação (o reverso) fosse par, a função é chamada novamente de forma recursiva mas passando metade do valor de potenciação, otimizando assim o tempo do algoritmo.

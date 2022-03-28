@@ -22,9 +22,9 @@ O funcionamento do projeto se dá com a execução de cada arquivo, passando com
 | | |
 :---------: | :------: |
 | Accepted do GeeksforGeeks | Accepted do GeeksforGeeks |
-| ![imagem](img/BinarySearch.PNG) | ![imagem2](img/PowerOfNumbers.PNG) |
+| ![imagem](img/BinarySearch.png) | ![imagem2](img/PowerOfNumbers.png) |
 | Accepted do Codeforces | Accepted do Codeforces |
-| ![image3](img/MergeSort.png) | ![imagem4](img/Abracadabra.png) |
+| ![image3](img/MergeSort.PNG) | ![imagem4](img/Abracadabra.PNG) |
 
 ## Instalação 
 **Linguagem**: Python<br>

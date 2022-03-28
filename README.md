@@ -24,7 +24,7 @@ O funcionamento do projeto se dá com a execução de cada arquivo, passando com
 | Accepted do GeeksforGeeks | Accepted do GeeksforGeeks |
 | ![imagem](img/BinarySearch.PNG) | ![imagem2](img/PowerOfNumbers.PNG) |
 | Accepted do Codeforces | Accepted do Codeforces |
-| ![image3](img/MergeSort.PNG) | ![imagem4](img/Abracadabra.PNG) |
+| ![image3](img/MergeSort.png) | ![imagem4](img/Abracadabra.png) |
 
 ## Instalação 
 **Linguagem**: Python<br>
